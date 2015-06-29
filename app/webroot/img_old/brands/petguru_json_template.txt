@@ -1,0 +1,206 @@
+http://www.kiwitechcorp.com/petgurudev/api
+
+[
+    {
+        "Result": {
+            "Brands": [
+                {
+                    "brand_id": "7",
+                    "brand_name": "First brand",
+                    "status": "2"
+                },
+                {
+                    "brand_id": "12",
+                    "brand_name": "second brand",
+                    "status": "2"
+                },
+                {
+                    "brand_id": "13",
+                    "brand_name": "third brand",
+                    "status": "2"
+                },
+                {
+                    "brand_id": "15",
+                    "brand_name": "fourth brand",
+                    "status": "2"
+                }
+            ],
+            "Categories": [
+                {
+                    "category_id": "3",
+                    "category_name": "Puppy",
+                    "status": "2"
+                },
+                {
+                    "category_id": "4",
+                    "category_name": "Minor",
+                    "status": "0"
+                },
+                {
+                    "category_id": "7",
+                    "category_name": "we",
+                    "status": "0"
+                }
+            ],
+            "Attribute": [
+                {
+                    "attribute_id": "1",
+                    "attribute_name": "first attribute",
+                    "weightage": "1",
+                    "question_id": "1",
+                    "status": "2"
+                },
+                {
+                    "attribute_id": "2",
+                    "attribute_name": "second attribute",
+                    "weightage": "2",
+                    "question_id": "1",
+                    "status": "2"
+                },
+                {
+                    "attribute_id": "3",
+                    "attribute_name": "thired attribute",
+                    "weightage": "3",
+                    "question_id": "14",
+                    "status": "2"
+                },
+                {
+                    "attribute_id": "4",
+                    "attribute_name": "fourth attribute",
+                    "weightage": "4",
+                    "question_id": null,
+                    "status": "2"
+                },
+                {
+                    "attribute_id": "35",
+                    "attribute_name": "35th attribute",
+                    "weightage": "10",
+                    "question_id": "14",
+                    "status": "2"
+                }
+            ],
+            "Product": [
+                {
+                    "product_id": "21",
+                    "product_name": "first prod",
+                    "product_image_url": "LasPalmas_EnchiladaSauce_Hot.jpg",
+                    "brand_id": "15",
+                    "status": "1"
+                }
+            ],
+            "Question": [
+                {
+                    "question_id": "1",
+                    "question_name": "This is third question",
+                    "category_id": "3",
+                    "status": "1",
+                    "question_type": "m"
+                },
+                {
+                    "question_id": "2",
+                    "question_name": "this is second question",
+                    "category_id": "4",
+                    "status": "1",
+                    "question_type": "s"
+                },
+                {
+                    "question_id": "14",
+                    "question_name": "new question which will dkdjd",
+                    "category_id": "7",
+                    "status": "0",
+                    "question_type": null
+                }
+            ],
+            "Attribute-Product": [
+                {
+                    "attribute_product_id": "26",
+                    "attribute_id": "1",
+                    "product_id": "14",
+                    "status": "1"
+                },
+                {
+                    "attribute_product_id": "27",
+                    "attribute_id": "2",
+                    "product_id": "14",
+                    "status": "1"
+                },
+                {
+                    "attribute_product_id": "28",
+                    "attribute_id": "3",
+                    "product_id": "14",
+                    "status": "1"
+                },
+                {
+                    "attribute_product_id": "33",
+                    "attribute_id": "1",
+                    "product_id": "21",
+                    "status": "1"
+                },
+                {
+                    "attribute_product_id": "34",
+                    "attribute_id": "2",
+                    "product_id": "21",
+                    "status": "1"
+                },
+                {
+                    "attribute_product_id": "35",
+                    "attribute_id": "3",
+                    "product_id": "21",
+                    "status": "1"
+                },
+                {
+                    "attribute_product_id": "26",
+                    "attribute_id": "1",
+                    "product_id": "14",
+                    "status": "1"
+                },
+                {
+                    "attribute_product_id": "27",
+                    "attribute_id": "2",
+                    "product_id": "14",
+                    "status": "1"
+                },
+                {
+                    "attribute_product_id": "28",
+                    "attribute_id": "3",
+                    "product_id": "14",
+                    "status": "1"
+                },
+                {
+                    "attribute_product_id": "33",
+                    "attribute_id": "1",
+                    "product_id": "21",
+                    "status": "1"
+                },
+                {
+                    "attribute_product_id": "34",
+                    "attribute_id": "2",
+                    "product_id": "21",
+                    "status": "1"
+                },
+                {
+                    "attribute_product_id": "35",
+                    "attribute_id": "3",
+                    "product_id": "21",
+                    "status": "1"
+                }
+            ]
+        }
+    },
+    {
+        "response": {
+            "response_code": 1,
+            "response_message": "success"
+        }
+    },
+    {
+        "Maximum-Weightage": [
+            {
+                "maximum_weightage": "10"
+            }
+        ]
+    },
+    {
+        "timestamp": "2013-09-27 08:19:51"
+    }
+]

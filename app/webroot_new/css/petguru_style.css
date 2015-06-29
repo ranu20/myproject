@@ -1,0 +1,129 @@
+	@charset "utf-8";
+* {
+	margin:0;
+	padding:0;
+}
+
+/** General Style Info **/
+body {background: #FFFFFF;color: #ffffff; font-family:'lucida grande',verdana,helvetica,arial,sans-serif;font-size:90%;margin: 0;}
+	
+input { font-family: "frutiger linotype","lucida grande","verdana",sans-serif; height:30px; border:1px solid #DCDCDC; background-color:#FFFFFF }
+
+table { border-right: 0 none; clear: both;     color: #333333;     margin-bottom: 10px;     width: 103%; }
+th{background-color: #ffffff; text-align: left; border-bottom:1px solid #000000;  padding: 3px 5px;}
+td a {text-align: center; text-decoration: none; color: #ffffff; font-size: 18px; }
+
+td{background-color: #F0F4F6; text-align: left; height: 50px; border-bottom: 2px solid #ffffff; padding: 3px 5px 3px 5px;}
+th a {text-decoration: none; color:#006fbc; font-family:'helvetica'; font-size:20px; font-weight:normal }
+
+.input {clear: both;font-family: "frutiger linotype","lucida grande","verdana",sans-serif; font-size: 90%; width:60%;}
+
+#loginbox input {height:35px; }
+
+.login_form div {  clear: both; margin-bottom: 1em; padding: 0.5em; vertical-align: text-top;}
+
+.header_botom_green {background-color:#1BB097; float:left;width: 25%; line-height:4px; min-height: 4px; width: 33%}
+.header_botom_red {background-color:#484F5F; float:left;width: 25%; line-height:4px; min-height: 4px; width: 34% }
+.header_botom_black {background-color:#C017A4; float:left;width: 25%; line-height:4px; min-height: 4px; width: 33%}
+th{margin-top:3px}
+
+/**  Actions  **/
+
+.dashboard {padding:100px 0 0 0 }
+
+.actions { background-color:#424242; float:left; width:220px; height: auto; min-height: 600px}
+
+.actions ul { margin: 0; padding: 0; }
+
+.actions li { margin:0 0 0 0; list-style-type:none; white-space:nowrap; padding:0; border-top:1px solid #575757; line-height:60px }
+
+.actions ul li a {font-weight: normal;display: block;clear: both;}
+
+/* Buttons and button links */
+.actions ul li a, .actions a { font-size:20px ; font-weight:normal; padding: 4px 8px; color:#8B8B8B; text-decoration: none; min-width: 0; }
+
+.actions ul li a:hover, .actions a:hover {border-color: #acacac; text-decoration: none; color: #FDFDFD}
+
+.actions ul li a:active, .actions a:active {background: #eee;	border-color: #aaa; text-decoration: none;color: #FDFDFD }
+
+.active a {background: #424242;	border-color: #aaa; text-decoration: none;color: #ffffff }
+
+#main {margin: auto;  min-height: 650px; top: 0; width: 100%; }
+#header {background-color:#FFFFFF; height: 55px; width: 100%;}
+
+#logo { height: 65px; margin: auto;  top: 0; width: 960px; left: 5px; position: relative; z-index: 1;}
+
+#left_panel{ float: left; height: 100%; width:50px; background-color:#ffffff; min-height: 700px;}
+#left_panel_default{ float: left; height: 100%; width:50px; background-color:#ffffff; min-height: 700px; border-right: 2px solid black; }
+#right_panel{float:right; border-left: 2px solid black; height: 100%; min-height: 700px; width:50px}
+.headertext {color: #838383;font-size: 20pt;font-weight: 600;position: relative;text-align: center; top: 12px;}
+#content {  float:left; background-color:#FFFFFF;height: auto;width: 100%; }
+#topHead {  background-color:#FFFFFF; height:55px; width: 100%; }
+#backtodesh { color:#FF0000; display:block; font-size:12pt; left:40%;  position: relative; top:150px; width:500px; }
+
+#loginbox { background-color: #FFFFFF; height: 313px; left: 455px; position: relative; top: 50px; width: 450px;}
+#loginbox input{ width: 100%; margin-top:3px; font-size:16px; font-weight:lighter}
+
+label {display:block; font-size:110%; margin-bottom:3px;}
+.login_label {display:block; font-size:100%; color:#424242; position: relative; top:3px; float:left} 
+.submit{float:left; width:85px}
+
+.submit input[type="submit"] {background-color:#424242; color: #FFFFFF; width:100px; height: 35px;  padding-bottom: 4px; font-size:19px; margin-left:30px}		
+.forgot_password {color:#C4C4C4; text-decoration:none; margin: 0px 0 0 165px; top:20px; position: relative; font-size: 17px; border-bottom: 2px solid #C4C4C4;}
+
+div.index, div.view { float: left; padding:0px 0px 0px 3px; width: 100%; }
+
+.module_title { font-size:30px; font-weight: bold; margin: 100px 0 20px 20px; color:#424242 }
+
+.form_field_title { font-size:22px; font-weight: bold; margin: 10px 0 0px 20px; color:#424242 }
+
+
+.black_box{background-color:#424242; height: 25px; text-align: center; display: inline-block; vertical-align: middle;padding:5px 10px 5px 10px; margin:0px 5px 0px 0px }
+
+.black_box a{text-align: center;text-decoration: none; color: #D7D7D7; font-size: 18px; font-family:'helvetica'; font-weight:lighter}
+
+.headings {color:#006fbc;font-family:'helvetica'; font-size:20px; font-weight:normal}
+
+.text {height: auto; width:100%}
+
+fieldset { border: none; margin-bottom: 1em; padding: 16px 10px; }
+
+fieldset legend { color: #454545; font-size: 100%; margin:0px 0px 0px 20px	}
+
+fieldset fieldset { margin-top: 0; padding: 10px 0 0;}
+
+fieldset fieldset legend { font-size: 120%; font-weight: normal; }
+
+fieldset fieldset div {clear: left; margin: 0 20px;}
+
+.float {float: left; margin-left: 20px}
+
+.brand_img_preview_container {border:2px solid #C4C4C4; height: 115px; width: 115px;}
+#brand_img_preview {width:140px; height: 140px}
+
+#productimg {    display: block; }
+
+.float input {width:100%}
+.float ul { margin-top: 45px; list-style: none}
+.float li input{background-color: #000000; color:red}
+.float ul li { border-bottom: 1px solid #666666;    line-height: 25px; line-height: 30px;}
+.fileinput-button { float: left;    margin-right: 4px;    overflow: hidden;    position: relative;}
+
+.float select { font-size: 15px; width:100%; height:30px }
+
+.active a { background: #424242;	border-color: #aaa; text-decoration: none; color: #ffffff !important }
+.special_browse{
+	background-color: #424242;
+    display: inline-block;
+    line-height: 25px;  
+	height:35px;
+    padding:0px 0px 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.special_browse a {
+    text-decoration:none;
+	cursor:pointer;
+	color:#ffffff;
+}
